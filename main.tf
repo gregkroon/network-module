@@ -1,5 +1,5 @@
 provider "aws" {
-  region = var.aws_region  # ✅ Define region in the provider
+  region = "ap-southeast-2"
 }
 
 resource "aws_vpc" "main" {
